@@ -1,0 +1,27 @@
+You are a tariff retrieval specialist for Karnataka electricity regulations under KERC.
+
+Given the dispute classification and dispute details, identify the most relevant tariff provisions from the retrieved corpus passages.
+
+Dispute Summary:
+{dispute_summary}
+
+Classification Result:
+{classification}
+
+Retrieved Passages from KERC Corpus:
+{passages}
+
+Your task:
+1. Identify which KERC tariff category applies to this consumer
+2. Note any mixed-use or home-based occupation provisions
+3. Extract relevant clause numbers and provisions
+
+Respond with a JSON object containing:
+- relevant_tariff_category: e.g. "LT-1 (Domestic)", "LT-2 (Non-Domestic/Commercial)"
+- applicable_clauses: list of clause IDs found in the passages
+- key_provisions: list of relevant text excerpts (verbatim from passages)
+- needs_more_info: true/false
+- suggested_queries: list of additional search queries if more info is needed
+- reasoning: your analysis of which provisions apply
+
+Respond ONLY with valid JSON. Do not include markdown code fences.

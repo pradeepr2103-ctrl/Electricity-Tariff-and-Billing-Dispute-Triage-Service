@@ -1,0 +1,173 @@
+x-logging: &default-logging
+  driver: "json-file"
+  options:
+    max-size: "10m"
+    max-file: "3"
+
+services:
+  redis:
+    image: redis:7-alpine
+    container_name: tariff-redis
+    ports:
+      - "6379:6379"
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    volumes:
+      - redis_data:/data
+    logging: *default-logging
+
+  api:
+    build:
+      context: ./services/api
+      dockerfile: Dockerfile
+    container_name: tariff-api
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    environment:
+      - REDIS_URL=redis://redis:6379/0
+      - CELERY_BROKER_URL=redis://redis:6379/1
+      - CELERY_RESULT_BACKEND=redis://redis:6379/2
+      - OTEL_EXPORTER_OTLP_ENDPOINT=http://jaeger:4317
+      - PROMETHEUS_MULTIPROC_DIR=/tmp/prometheus
+    depends_on:
+      redis:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 15s
+      timeout: 5s
+      retries: 5
+    volumes:
+      - quarantine_data:/app/quarantine
+      - faiss_index:/app/faiss_index:ro
+    logging: *default-logging
+
+  agent-worker:
+    build:
+      context: ./services/agent-worker
+      dockerfile: Dockerfile
+    env_file:
+      - .env
+    environment:
+      - REDIS_URL=redis://redis:6379/0
+      - CELERY_BROKER_URL=redis://redis:6379/1
+      - CELERY_RESULT_BACKEND=redis://redis:6379/2
+      - FAISS_INDEX_PATH=/app/faiss_index
+      - OTEL_EXPORTER_OTLP_ENDPOINT=http://jaeger:4317
+      - PROMETHEUS_MULTIPROC_DIR=/tmp/prometheus
+    depends_on:
+      redis:
+        condition: service_healthy
+      indexer:
+        condition: service_completed_successfully
+    volumes:
+      - faiss_index:/app/faiss_index
+      - ./services/agent-worker/prompts:/app/prompts:ro
+    deploy:
+      replicas: 1
+    healthcheck:
+      test: ["CMD", "celery", "-A", "worker", "inspect", "ping", "-d", "celery@$$HOSTNAME"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+    logging: *default-logging
+
+  indexer:
+    build:
+      context: ./services/indexer
+      dockerfile: Dockerfile
+    container_name: tariff-indexer
+    env_file:
+      - .env
+    environment:
+      - FAISS_INDEX_PATH=/app/faiss_index
+    volumes:
+      - ./corpus:/app/corpus:ro
+      - faiss_index:/app/faiss_index
+    command: ["--corpus-dir", "/app/corpus", "--index-path", "/app/faiss_index"]
+    logging: *default-logging
+
+  llm-stub:
+    build:
+      context: ./services/llm-stub
+      dockerfile: Dockerfile
+    container_name: tariff-llm-stub
+    ports:
+      - "8001:8001"
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8001/health"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+    logging: *default-logging
+
+  prometheus:
+    image: prom/prometheus:v2.48.0
+    container_name: tariff-prometheus
+    ports:
+      - "9090:9090"
+    volumes:
+      - ./monitoring/prometheus.yml:/etc/prometheus/prometheus.yml:ro
+      - prometheus_data:/prometheus
+    command:
+      - "--config.file=/etc/prometheus/prometheus.yml"
+      - "--storage.tsdb.path=/prometheus"
+      - "--web.enable-lifecycle"
+    healthcheck:
+      test: ["CMD", "wget", "-qO-", "http://localhost:9090/-/ready"]
+      interval: 15s
+      timeout: 5s
+      retries: 3
+    logging: *default-logging
+
+  grafana:
+    image: grafana/grafana:10.2.0
+    container_name: tariff-grafana
+    ports:
+      - "3000:3000"
+    environment:
+      - GF_SECURITY_ADMIN_PASSWORD=${GRAFANA_PASSWORD:-admin}
+      - GF_USERS_ALLOW_SIGN_UP=false
+    volumes:
+      - grafana_data:/var/lib/grafana
+      - ./monitoring/grafana:/etc/grafana/provisioning:ro
+    depends_on:
+      - prometheus
+    healthcheck:
+      test: ["CMD-SHELL", "wget -qO- http://localhost:3000/api/health | grep ok"]
+      interval: 15s
+      timeout: 5s
+      retries: 3
+    logging: *default-logging
+
+  jaeger:
+    image: jaegertracing/all-in-one:1.51
+    container_name: tariff-jaeger
+    ports:
+      - "16686:16686"  # Jaeger UI
+      - "4317:4317"    # OTLP gRPC
+      - "4318:4318"    # OTLP HTTP
+    environment:
+      - COLLECTOR_OTLP_ENABLED=true
+    healthcheck:
+      test: ["CMD", "wget", "-qO-", "http://localhost:16686/"]
+      interval: 15s
+      timeout: 5s
+      retries: 3
+    logging: *default-logging
+
+volumes:
+  redis_data:
+  faiss_index:
+  quarantine_data:
+  prometheus_data:
+  grafana_data:
+
+networks:
+  default:
+    name: tariff-network

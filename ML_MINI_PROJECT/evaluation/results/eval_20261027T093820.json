@@ -1,0 +1,263 @@
+{
+  "eval_id": "eval_20261027T093820",
+  "prompt_version": "--help",
+  "run_at": "2026-10-27T09:38:20.792117+00:00",
+  "aggregate": {
+    "total_scenarios": 22,
+    "routing_accuracy": 0.0,
+    "tariff_accuracy": 0.0,
+    "citation_coverage": 0.0,
+    "avg_groundedness_score": 0.0,
+    "verified_rate": 0.0,
+    "hallucination_rate": 1.0,
+    "escalation_rate": 0.0,
+    "avg_latency_ms": 0.0,
+    "total_cost_usd": 0,
+    "slo_p95_latency_ms": 30000,
+    "slo_met": true
+  },
+  "per_scenario": [
+    {
+      "scenario_id": "S001",
+      "error": "Failed to submit",
+      "routing_correct": false,
+      "tariff_match": false,
+      "has_citations": false,
+      "citation_count": 0,
+      "groundedness_score": 0.0,
+      "verification_status": "error",
+      "latency_ms": 0
+    },
+    {
+      "scenario_id": "S002",
+      "error": "Failed to submit",
+      "routing_correct": false,
+      "tariff_match": false,
+      "has_citations": false,
+      "citation_count": 0,
+      "groundedness_score": 0.0,
+      "verification_status": "error",
+      "latency_ms": 0
+    },
+    {
+      "scenario_id": "S003",
+      "error": "Failed to submit",
+      "routing_correct": false,
+      "tariff_match": false,
+      "has_citations": false,
+      "citation_count": 0,
+      "groundedness_score": 0.0,
+      "verification_status": "error",
+      "latency_ms": 0
+    },
+    {
+      "scenario_id": "S004",
+      "error": "Failed to submit",
+      "routing_correct": false,
+      "tariff_match": false,
+      "has_citations": false,
+      "citation_count": 0,
+      "groundedness_score": 0.0,
+      "verification_status": "error",
+      "latency_ms": 0
+    },
+    {
+      "scenario_id": "S005",
+      "error": "Failed to submit",
+      "routing_correct": false,
+      "tariff_match": false,
+      "has_citations": false,
+      "citation_count": 0,
+      "groundedness_score": 0.0,
+      "verification_status": "error",
+      "latency_ms": 0
+    },
+    {
+      "scenario_id": "S006",
+      "error": "Failed to submit",
+      "routing_correct": false,
+      "tariff_match": false,
+      "has_citations": false,
+      "citation_count": 0,
+      "groundedness_score": 0.0,
+      "verification_status": "error",
+      "latency_ms": 0
+    },
+    {
+      "scenario_id": "S007",
+      "error": "Failed to submit",
+      "routing_correct": false,
+      "tariff_match": false,
+      "has_citations": false,
+      "citation_count": 0,
+      "groundedness_score": 0.0,
+      "verification_status": "error",
+      "latency_ms": 0
+    },
+    {
+      "scenario_id": "S008",
+      "error": "Failed to submit",
+      "routing_correct": false,
+      "tariff_match": false,
+      "has_citations": false,
+      "citation_count": 0,
+      "groundedness_score": 0.0,
+      "verification_status": "error",
+      "latency_ms": 0
+    },
+    {
+      "scenario_id": "S009",
+      "error": "Failed to submit",
+      "routing_correct": false,
+      "tariff_match": false,
+      "has_citations": false,
+      "citation_count": 0,
+      "groundedness_score": 0.0,
+      "verification_status": "error",
+      "latency_ms": 0
+    },
+    {
+      "scenario_id": "S010",
+      "error": "Failed to submit",
+      "routing_correct": false,
+      "tariff_match": false,
+      "has_citations": false,
+      "citation_count": 0,
+      "groundedness_score": 0.0,
+      "verification_status": "error",
+      "latency_ms": 0
+    },
+    {
+      "scenario_id": "S011",
+      "error": "Failed to submit",
+      "routing_correct": false,
+      "tariff_match": false,
+      "has_citations": false,
+      "citation_count": 0,
+      "groundedness_score": 0.0,
+      "verification_status": "error",
+      "latency_ms": 0
+    },
+    {
+      "scenario_id": "S012",
+      "error": "Failed to submit",
+      "routing_correct": false,
+      "tariff_match": false,
+      "has_citations": false,
+      "citation_count": 0,
+      "groundedness_score": 0.0,
+      "verification_status": "error",
+      "latency_ms": 0
+    },
+    {
+      "scenario_id": "S013",
+      "error": "Failed to submit",
+      "routing_correct": false,
+      "tariff_match": false,
+      "has_citations": false,
+      "citation_count": 0,
+      "groundedness_score": 0.0,
+      "verification_status": "error",
+      "latency_ms": 0
+    },
+    {
+      "scenario_id": "S014",
+      "error": "Failed to submit",
+      "routing_correct": false,
+      "tariff_match": false,
+      "has_citations": false,
+      "citation_count": 0,
+      "groundedness_score": 0.0,
+      "verification_status": "error",
+      "latency_ms": 0
+    },
+    {
+      "scenario_id": "S015",
+      "error": "Failed to submit",
+      "routing_correct": false,
+      "tariff_match": false,
+      "has_citations": false,
+      "citation_count": 0,
+      "groundedness_score": 0.0,
+      "verification_status": "error",
+      "latency_ms": 0
+    },
+    {
+      "scenario_id": "S016",
+      "error": "Failed to submit",
+      "routing_correct": false,
+      "tariff_match": false,
+      "has_citations": false,
+      "citation_count": 0,
+      "groundedness_score": 0.0,
+      "verification_status": "error",
+      "latency_ms": 0
+    },
+    {
+      "scenario_id": "S017",
+      "error": "Failed to submit",
+      "routing_correct": false,
+      "tariff_match": false,
+      "has_citations": false,
+      "citation_count": 0,
+      "groundedness_score": 0.0,
+      "verification_status": "error",
+      "latency_ms": 0
+    },
+    {
+      "scenario_id": "S018",
+      "error": "Failed to submit",
+      "routing_correct": false,
+      "tariff_match": false,
+      "has_citations": false,
+      "citation_count": 0,
+      "groundedness_score": 0.0,
+      "verification_status": "error",
+      "latency_ms": 0
+    },
+    {
+      "scenario_id": "S019",
+      "error": "Failed to submit",
+      "routing_correct": false,
+      "tariff_match": false,
+      "has_citations": false,
+      "citation_count": 0,
+      "groundedness_score": 0.0,
+      "verification_status": "error",
+      "latency_ms": 0
+    },
+    {
+      "scenario_id": "S020",
+      "error": "Failed to submit",
+      "routing_correct": false,
+      "tariff_match": false,
+      "has_citations": false,
+      "citation_count": 0,
+      "groundedness_score": 0.0,
+      "verification_status": "error",
+      "latency_ms": 0
+    },
+    {
+      "scenario_id": "S021",
+      "error": "Failed to submit",
+      "routing_correct": false,
+      "tariff_match": false,
+      "has_citations": false,
+      "citation_count": 0,
+      "groundedness_score": 0.0,
+      "verification_status": "error",
+      "latency_ms": 0
+    },
+    {
+      "scenario_id": "S022",
+      "error": "Failed to submit",
+      "routing_correct": false,
+      "tariff_match": false,
+      "has_citations": false,
+      "citation_count": 0,
+      "groundedness_score": 0.0,
+      "verification_status": "error",
+      "latency_ms": 0
+    }
+  ]
+}

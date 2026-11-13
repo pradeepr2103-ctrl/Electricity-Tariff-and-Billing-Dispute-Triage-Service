@@ -1,0 +1,147 @@
+{
+  "annotations": {
+    "list": []
+  },
+  "description": "Tariff Dispute Triage Service — Agent Ops Dashboard",
+  "editable": true,
+  "fiscalYearStartMonth": 0,
+  "graphTooltip": 0,
+  "id": null,
+  "links": [],
+  "panels": [
+    {
+      "collapsed": false,
+      "gridPos": {"h": 1, "w": 24, "x": 0, "y": 0},
+      "id": 1,
+      "title": "API Metrics",
+      "type": "row"
+    },
+    {
+      "datasource": {"type": "prometheus", "uid": "prometheus"},
+      "fieldConfig": {
+        "defaults": {"color": {"mode": "palette-classic"}, "unit": "reqps"}
+      },
+      "gridPos": {"h": 8, "w": 8, "x": 0, "y": 1},
+      "id": 2,
+      "options": {"legend": {"calcs": ["mean", "max"], "displayMode": "table"}},
+      "targets": [
+        {
+          "expr": "rate(api_requests_total[1m])",
+          "legendFormat": "{{method}} {{endpoint}} {{status}}"
+        }
+      ],
+      "title": "API Request Rate",
+      "type": "timeseries"
+    },
+    {
+      "datasource": {"type": "prometheus", "uid": "prometheus"},
+      "fieldConfig": {
+        "defaults": {"color": {"mode": "palette-classic"}, "unit": "ms"}
+      },
+      "gridPos": {"h": 8, "w": 8, "x": 8, "y": 1},
+      "id": 3,
+      "targets": [
+        {
+          "expr": "histogram_quantile(0.95, rate(api_request_latency_seconds_bucket[5m])) * 1000",
+          "legendFormat": "p95"
+        },
+        {
+          "expr": "histogram_quantile(0.50, rate(api_request_latency_seconds_bucket[5m])) * 1000",
+          "legendFormat": "p50"
+        }
+      ],
+      "title": "API Latency (p50/p95)",
+      "type": "timeseries"
+    },
+    {
+      "datasource": {"type": "prometheus", "uid": "prometheus"},
+      "fieldConfig": {"defaults": {"unit": "short"}},
+      "gridPos": {"h": 8, "w": 8, "x": 16, "y": 1},
+      "id": 4,
+      "options": {"reduceOptions": {"calcs": ["lastNotNull"]}},
+      "targets": [
+        {
+          "expr": "increase(disputes_submitted_total[5m])",
+          "legendFormat": "Submitted"
+        },
+        {
+          "expr": "increase(disputes_quarantined_total[5m])",
+          "legendFormat": "Quarantined"
+        }
+      ],
+      "title": "Dispute Throughput (5m)",
+      "type": "stat"
+    },
+    {
+      "collapsed": false,
+      "gridPos": {"h": 1, "w": 24, "x": 0, "y": 9},
+      "id": 5,
+      "title": "Agent Worker Metrics",
+      "type": "row"
+    },
+    {
+      "datasource": {"type": "prometheus", "uid": "prometheus"},
+      "fieldConfig": {
+        "defaults": {"color": {"mode": "palette-classic"}, "unit": "reqps"}
+      },
+      "gridPos": {"h": 8, "w": 8, "x": 0, "y": 10},
+      "id": 6,
+      "targets": [
+        {
+          "expr": "rate(agent_tasks_total[1m])",
+          "legendFormat": "{{status}}"
+        }
+      ],
+      "title": "Agent Task Rate",
+      "type": "timeseries"
+    },
+    {
+      "datasource": {"type": "prometheus", "uid": "prometheus"},
+      "fieldConfig": {
+        "defaults": {"color": {"mode": "palette-classic"}, "unit": "s"}
+      },
+      "gridPos": {"h": 8, "w": 8, "x": 8, "y": 10},
+      "id": 7,
+      "targets": [
+        {
+          "expr": "histogram_quantile(0.95, rate(agent_task_latency_seconds_bucket[5m]))",
+          "legendFormat": "p95 latency"
+        },
+        {
+          "expr": "histogram_quantile(0.50, rate(agent_task_latency_seconds_bucket[5m]))",
+          "legendFormat": "p50 latency"
+        }
+      ],
+      "title": "Agent Task Latency (p50/p95) — SLO: p95 < 30s",
+      "type": "timeseries"
+    },
+    {
+      "datasource": {"type": "prometheus", "uid": "prometheus"},
+      "fieldConfig": {"defaults": {"unit": "short"}},
+      "gridPos": {"h": 8, "w": 8, "x": 16, "y": 10},
+      "id": 8,
+      "targets": [
+        {
+          "expr": "increase(agent_retry_total[5m])",
+          "legendFormat": "Retries (5m)"
+        },
+        {
+          "expr": "increase(circuit_breaker_trips_total[1h])",
+          "legendFormat": "Circuit Trips (1h)"
+        }
+      ],
+      "title": "Retries & Circuit Breaker",
+      "type": "timeseries"
+    }
+  ],
+  "refresh": "10s",
+  "schemaVersion": 36,
+  "style": "dark",
+  "tags": ["tariff", "agentops"],
+  "time": {"from": "now-1h", "to": "now"},
+  "timepicker": {},
+  "timezone": "browser",
+  "title": "Tariff Dispute Triage — AgentOps Dashboard",
+  "uid": "tariff-agentops-v1",
+  "version": 1
+}

@@ -1,0 +1,335 @@
+KARNATAKA ELECTRICITY REGULATORY COMMISSION
+RETAIL SUPPLY TARIFF ORDER 2024
+(ORDER NO. KERC/TARIFF/2024/001)
+
+Dated: 01 January 2024
+
+In exercise of the powers conferred by Section 64 read with Sections 62 and 86 of the
+Electricity Act, 2003 (Central Act 36 of 2003), the Karnataka Electricity Regulatory Commission
+hereby issues the following Tariff Order applicable to supply of electricity by Distribution
+Licensees in Karnataka.
+
+================================================================================
+PART I: DEFINITIONS
+================================================================================
+
+Section 1 - General Definitions
+
+1.1 "Commission" means the Karnataka Electricity Regulatory Commission (KERC).
+1.2 "Distribution Licensee" means BESCOM, HESCOM, MESCOM, GESCOM, or CESC.
+1.3 "Connected Load" means the sum of wattage of all electrical appliances/equipment that
+    may be connected by a consumer at any given time, expressed in kilowatts (kW).
+1.4 "Contracted Demand" means the maximum demand that a consumer can draw, as agreed
+    upon in the supply agreement, expressed in kilovolt-amperes (kVA).
+1.5 "Domestic Premises" means any premises used solely for residential/dwelling purposes.
+1.6 "Non-Domestic Premises" means any premises used for commercial, business, trading,
+    professional, or other non-residential purposes.
+1.7 "Mixed Use Premises" means any premises used partly for domestic and partly for
+    non-domestic purposes simultaneously.
+1.8 "Home-Based Occupation" means an occupation or small business conducted by a
+    resident occupant of a dwelling from within that dwelling, without altering the residential
+    character of the premises, employing not more than two (2) persons from outside the household.
+
+================================================================================
+PART II: TARIFF SCHEDULE
+================================================================================
+
+CATEGORY LT-1: DOMESTIC (RESIDENTIAL)
+
+Definition:
+Electrical energy supplied to premises used for domestic/residential purposes including
+houses, flats, apartments, and bungalows where electricity is consumed solely for domestic
+purposes such as lighting, fans, air conditioning, domestic appliances (refrigerators,
+washing machines, water heaters), and similar domestic uses.
+
+Eligibility:
+- Premises must be used exclusively for residential purposes
+- Connected load up to 10 kW
+- Consumers with connected load above 10 kW will be billed under LT-1A (HEW) category
+
+Tariff Rates (Effective 01 April 2024):
+Fixed Charges:
+- Up to 4 kW connected load: Rs. 35 per month
+- Above 4 kW and up to 10 kW: Rs. 75 per month
+
+Energy Charges (per unit/kWh):
+- First 30 units per month: Rs. 4.95 per unit
+- Units 31 to 100 per month: Rs. 7.45 per unit
+- Units 101 to 200 per month: Rs. 8.05 per unit
+- Above 200 units per month: Rs. 9.35 per unit
+
+Minimum Charges: Rs. 50 per month (whichever is higher of fixed charges or minimum)
+
+--------------------------------------------------------------------------------
+
+CATEGORY LT-1A: DOMESTIC HIGH ENERGY CONSUMPTION (HEW)
+
+Definition:
+Domestic consumers with connected load exceeding 10 kW.
+
+Eligibility:
+- Residential premises with connected load above 10 kW
+
+Tariff Rates (Effective 01 April 2024):
+Fixed Charges: Rs. 150 per month
+Energy Charges: Rs. 9.35 per unit for all units consumed
+
+--------------------------------------------------------------------------------
+
+CATEGORY LT-2: NON-DOMESTIC (COMMERCIAL)
+
+Definition:
+Electrical energy supplied to premises used for commercial, trading, business establishments,
+professional offices, service establishments, shops, showrooms, hotels, restaurants, cinema halls,
+educational institutions (private), hospitals (private), and all other non-residential, non-industrial
+uses. This includes any premises used primarily for earning profit or conducting business.
+
+Eligibility:
+- Any premises used for commercial/business purposes
+- Connected load up to 40 kW (above 40 kW falls under HT categories)
+
+Tariff Rates (Effective 01 April 2024):
+Fixed Charges:
+- Up to 10 kW: Rs. 75 per month
+- Above 10 kW and up to 20 kW: Rs. 150 per month
+- Above 20 kW and up to 40 kW: Rs. 275 per month
+
+Energy Charges (per unit/kWh):
+- All units: Rs. 9.55 per unit (peak hours)
+- All units: Rs. 7.55 per unit (off-peak hours)
+- All units (flat rate if no TOD meter): Rs. 9.55 per unit
+
+Minimum Charges: Rs. 100 per month
+
+--------------------------------------------------------------------------------
+
+CATEGORY LT-3: INDUSTRIAL (LOW TENSION)
+
+Definition:
+Electrical energy supplied for manufacturing, processing, fabrication, and other
+industrial purposes at Low Tension supply.
+
+Eligibility:
+- Connected load up to 75 kW
+- Must have valid industrial registration/license
+
+Tariff Rates (Effective 01 April 2024):
+Fixed Charges: Rs. 100 per kW of connected load per month
+Energy Charges: Rs. 8.05 per unit (all units, flat rate)
+Minimum Charges: Equivalent to 50 units per kW of connected load per month
+
+--------------------------------------------------------------------------------
+
+CATEGORY LT-4: AGRICULTURAL PUMPING
+
+Definition:
+Electrical energy supplied for agricultural pump sets used for irrigation purposes.
+
+Eligibility:
+- Must be used exclusively for agricultural irrigation
+- Connection must be on agricultural land
+- Pumpsets must be approved capacity
+
+Tariff Rates (Effective 01 April 2024):
+- Unmetered supply: Flat rate per HP per annum (category-specific)
+- Metered supply: Rs. 1.50 per unit
+
+--------------------------------------------------------------------------------
+
+CATEGORY LT-5: PUBLIC LIGHTING AND PWD
+
+Definition:
+Electrical energy supplied for street lighting, traffic signals, and government public works.
+
+--------------------------------------------------------------------------------
+
+CATEGORY LT-6: TEMPORARY SUPPLY
+
+Definition:
+Electrical energy supplied for temporary purposes such as construction, events, exhibitions.
+
+Tariff Rates: 1.5 times the applicable permanent category rate
+
+================================================================================
+PART III: HIGH TENSION CATEGORIES
+================================================================================
+
+CATEGORY HT-1: HT INDUSTRIAL (ABOVE 75 kW up to 5 MVA)
+CATEGORY HT-2: HT COMMERCIAL (ABOVE 40 kW)
+CATEGORY HT-3: HT BULK SUPPLY
+CATEGORY HT-4: HT TRACTION
+
+(Detailed HT tariff schedules in Annexure-A)
+
+================================================================================
+SCHEDULE 8: MIXED USE PREMISES AND SPECIAL PROVISIONS
+================================================================================
+
+General Provision — Mixed Use Premises:
+
+Clause 8.1: Where premises are used for both domestic and non-domestic purposes simultaneously,
+the following provisions shall apply to determine the applicable tariff category.
+
+Clause 8.2: Predominant Use Rule — Non-Domestic Area Exceeding 50%
+If the non-domestic use area exceeds 50 percent (50%) of the total built-up area of the
+premises, the entire premises shall be billed under LT-2 (Non-Domestic) category.
+Calculation: Non-domestic area (sq. ft.) / Total built-up area (sq. ft.) × 100 > 50%
+→ Apply LT-2 to entire connected load.
+
+Clause 8.3: Home-Based Occupation Provision
+Where a portion of a residential premises is used for a small home-based occupation or
+business by the occupant-resident, the connection may be retained under LT-1 (Domestic)
+category subject to ALL of the following conditions being met:
+  (a) The occupation is conducted by the resident occupant of the dwelling;
+  (b) Not more than two (2) persons from outside the household are employed;
+  (c) The area used for non-domestic purposes does not exceed 50% of total built-up area;
+  (d) The nature of occupation does not generate commercial-scale noise, effluent, or hazardous waste;
+  (e) The primary character of the premises remains residential;
+  (f) No separate commercial signage is installed at the premises.
+
+Examples of qualifying home-based occupations:
+- Home-based tailoring/stitching with 1-2 domestic sewing machines
+- Private tuition classes with not more than 10 students at a time
+- Home-based beauty parlour with 1 operator
+- Freelance professionals (consultants, accountants, writers) working from home
+
+Clause 8.4: Disqualification from Home-Based Occupation Provision
+A consumer shall NOT be entitled to LT-1 billing if:
+  (a) The business employs more than 2 outside persons;
+  (b) Industrial machinery or equipment is installed;
+  (c) A separate commercial electricity connection has been obtained;
+  (d) The non-domestic area exceeds 50% of total built-up area;
+  (e) The consumer has previously been notified of misuse and failed to rectify.
+
+Clause 8.5: Site Inspection for Mixed Use
+Where there is ambiguity about whether a connection qualifies as home-based occupation,
+the Distribution Licensee shall conduct a site inspection within 30 working days of
+the dispute being registered.
+
+Clause 8.6: Tariff Revision on Change of Use
+If premises are found to be used for non-domestic purposes without prior intimation:
+  (a) Retrospective billing under LT-2 from the date of change of use (or 12 months prior,
+      whichever is later);
+  (b) Additional surcharge of 15% on the differential amount.
+
+Clause 8.7: Consumer's Obligation to Notify
+Any consumer who changes the use of their premises from domestic to non-domestic, or
+who starts a home-based occupation, must notify the Distribution Licensee within 30 days
+of such change.
+
+================================================================================
+SCHEDULE 9: METER AND ACCURACY PROVISIONS
+================================================================================
+
+Section 9.1: Meter Accuracy Standards
+All meters installed by Distribution Licensees shall conform to IS:13779 accuracy class 1.0
+for single phase meters and accuracy class 0.5S for three-phase meters.
+
+Clause 9.2: Consumer's Right to Test Meter Accuracy
+Any consumer may request meter accuracy testing by:
+  (a) Submitting a written application to the Distribution Licensee;
+  (b) Depositing the testing fee as specified (non-refundable if meter found accurate);
+  (c) The test shall be conducted within 30 days of the application.
+
+Clause 9.3: Meter Found Defective
+If the tested meter is found to be defective (reading error > ±2%):
+  (a) The meter shall be replaced within 7 days;
+  (b) Billing shall be revised for a period not exceeding 6 billing cycles prior to the test;
+  (c) Revision shall be based on average consumption of the 12 months prior to the defect.
+
+Clause 9.4: Meter Found Accurate
+If the tested meter is found accurate (reading error within ±2%):
+  (a) The consumer bears the testing fee;
+  (b) No revision to bills shall be made.
+
+Clause 9.5: Meter Burnt or Stop Case
+If a meter is found stopped or burnt:
+  (a) The Distribution Licensee shall replace it at no cost to the consumer;
+  (b) Assessment shall be based on average of previous 6 months or similar consumer load.
+
+================================================================================
+SCHEDULE 10: CONNECTED LOAD VIOLATION AND PENALTIES
+================================================================================
+
+Clause 10.1: Authorized Connected Load
+No consumer shall connect any appliance or equipment that increases the total connected
+load beyond the sanctioned connected load without prior permission from the Distribution Licensee.
+
+Clause 10.2: Penalty for Excess Connected Load
+If a consumer is found to have connected load in excess of sanctioned load:
+  (a) Penalty of Rs. 500 per kW of excess load per month from the date of detection;
+  (b) Excess load must be disconnected within 30 days or sanctioned capacity upgraded;
+  (c) Distribution Licensee may disconnect supply if violation continues.
+
+Clause 10.3: Regularization of Excess Load
+A consumer may apply for regularization of excess load by:
+  (a) Filing application with the Distribution Licensee;
+  (b) Paying regularization charges as specified;
+  (c) Paying arrears of penalty computed from date of violation.
+
+================================================================================
+SCHEDULE 11: ARREARS AND DISCONNECTION
+================================================================================
+
+Clause 11.1: Payment Due Date
+Electricity bills are due for payment within 15 days of the bill date.
+
+Clause 11.2: Late Payment Surcharge
+A surcharge of 1.5% per month shall be levied on unpaid amounts after the due date.
+
+Clause 11.3: Disconnection for Non-Payment
+Supply may be disconnected if payment is not received within 30 days of due date,
+after issuance of a disconnection notice of at least 15 days.
+
+Clause 11.4: Reconnection
+Supply shall be reconnected within 24 hours of payment of outstanding dues plus
+reconnection charges (Rs. 50 for LT connections).
+
+Clause 11.5: Dispute of Arrears
+If a consumer disputes arrears:
+  (a) A written dispute shall be filed with the Distribution Licensee;
+  (b) Disconnection shall be deferred during investigation;
+  (c) Investigation shall be completed within 30 days.
+
+================================================================================
+SCHEDULE 12: BILLING DISPUTE RESOLUTION PROCEDURE
+================================================================================
+
+Clause 12.1: Consumer Grievance Redressal
+Any consumer aggrieved by a billing matter may:
+  Step 1: Contact the local section office of the Distribution Licensee
+  Step 2: If unresolved, escalate to the Division Office Consumer Grievance Cell
+  Step 3: If further unresolved, file complaint with the Consumer Grievance Redressal Forum (CGRF)
+  Step 4: Appeal to KERC Ombudsman
+
+Clause 12.2: Timeline for Grievance Resolution
+- Section Office: 7 working days
+- Division Office CGRF: 30 days
+- KERC Ombudsman: 60 days
+
+Clause 12.3: Tariff Dispute Resolution
+Where a consumer disputes the tariff category under which they are billed:
+  (a) The Distribution Licensee shall verify the premises use within 30 days;
+  (b) If site inspection is required, it shall be conducted within 30 days of the dispute;
+  (c) A written order shall be communicated to the consumer.
+
+================================================================================
+PART IV: GENERAL TERMS AND CONDITIONS
+================================================================================
+
+Section 13: Supply Code Reference
+All terms not defined herein shall have the meaning ascribed to them in the Karnataka
+Electricity Supply Code 2004 (as amended from time to time).
+
+Section 14: Effective Date
+This tariff order is effective from 01 April 2024 and shall remain in force until
+superseded by a subsequent order of the Commission.
+
+Section 15: Overriding Effect
+In case of any inconsistency between this tariff order and any other order/notification,
+this tariff order shall prevail for matters related to retail tariffs.
+
+By order of the Karnataka Electricity Regulatory Commission
+
+Secretary, KERC
+Bengaluru, 01 January 2024

@@ -1,0 +1,325 @@
+KARNATAKA ELECTRICITY SUPPLY CODE 2004
+(AS AMENDED UPTO 2022)
+
+Government of Karnataka
+Energy Department
+
+Issued under Section 50 of the Electricity Act, 2003
+(Central Act 36 of 2003)
+
+This Supply Code governs the terms and conditions for supply of electricity by
+Distribution Licensees to consumers in Karnataka.
+
+================================================================================
+CHAPTER 1: PRELIMINARY
+================================================================================
+
+Regulation 1: Short Title and Commencement
+1.1 These regulations may be called the "Karnataka Electricity Supply Code, 2004" and
+    the amendments thereto shall be referred to by the year of amendment.
+1.2 These regulations shall come into force from the date of their publication in the
+    Karnataka Gazette.
+
+Regulation 2: Definitions
+2.1 "Act" means the Electricity Act, 2003 (Central Act 36 of 2003).
+2.2 "Applicant" means any person applying for electricity supply.
+2.3 "Connected Load" means the aggregate wattage of all electrical appliances,
+    apparatus or motor rating that may be connected at any time to the supply system.
+2.4 "Consumer" means any person who is supplied with electricity by a Distribution Licensee.
+2.5 "Distribution Licensee" means the licensee authorised to distribute electricity in a
+    specified area of supply.
+2.6 "Metering Equipment" means the meter, instrument transformers, metering cubicle,
+    meter seals, and associated wiring installed at the consumer premises.
+2.7 "Premises" means any land or building or part of a building where electricity supply
+    is provided to a consumer.
+2.8 "Sanctioned Load" means the connected load approved by the Distribution Licensee
+    for supply to a consumer.
+2.9 "Service Connection" means all works executed for the purpose of providing a supply
+    of electricity up to and including the main switch at the consumer premises.
+
+================================================================================
+CHAPTER 2: APPLICATION FOR SUPPLY
+================================================================================
+
+Regulation 3: Application for New Connection
+3.1 Any person requiring a new electricity supply shall submit an application in the
+    prescribed form to the Distribution Licensee.
+3.2 The application shall include:
+    (a) Nature and purpose of use (residential, commercial, industrial, agricultural)
+    (b) Estimated connected load
+    (c) Category of supply required (LT/HT)
+    (d) Details of premises ownership/tenancy
+    (e) Any mixed or additional use of premises
+
+3.3 Wrong Statement in Application
+    If a consumer obtains supply by making a false statement or misrepresentation
+    regarding the nature or purpose of use, the Distribution Licensee may:
+    (a) Revise all bills from the date of connection (or 12 months prior) to correct category
+    (b) Levy an additional charge of 15% on the differential amount as penalty
+    (c) Disconnect supply pending regularization
+
+Regulation 4: Type of Supply
+4.1 Low Tension (LT) Supply: Up to 11 kV, for connected loads generally up to 75 kW
+4.2 High Tension (HT) Supply: 11 kV and above, for connected loads above 75 kW
+4.3 The Distribution Licensee reserves the right to provide HT supply for loads
+    below 75 kW where LT supply is not feasible.
+
+Regulation 5: Security Deposit
+5.1 The Distribution Licensee shall collect security deposit equivalent to:
+    (a) LT Domestic: 2 months estimated billing
+    (b) LT Non-Domestic/Commercial: 3 months estimated billing
+    (c) LT Industrial: 3 months estimated billing
+
+================================================================================
+CHAPTER 3: METERING
+================================================================================
+
+Regulation 6: Metering Obligations
+6.1 Every consumer shall be provided with a meter to record consumption.
+6.2 The meter shall be installed at or near the point of supply.
+6.3 The Distribution Licensee shall own and maintain the meter.
+
+Regulation 7: Meter Installation Standards
+7.1 Meters shall conform to the Bureau of Indian Standards specifications:
+    - Single Phase Meters: IS 13779
+    - Three Phase Meters: IS 14697
+    - CT/PT operated meters: IS 13010
+7.2 All meters shall have accuracy class 1.0 or better.
+7.3 Tamper-evident features shall be provided on all new meters.
+
+Regulation 8: Meter Reading
+8.1 Meters shall be read at intervals of not more than 60 days for LT consumers.
+8.2 The Distribution Licensee shall issue a bill within 7 days of meter reading.
+8.3 If a meter reader cannot access the premises, an estimated bill shall be issued.
+8.4 The actual reading shall be taken at the next opportunity and the account adjusted.
+
+Regulation 9: Faulty Meters and Consumer's Right to Test
+9.1 A consumer who has reason to believe that their meter is recording incorrectly
+    may apply for meter testing.
+
+Section 9.2 — Application for Meter Testing
+The consumer shall:
+    (a) Submit a written application to the Distribution Licensee
+    (b) Pay the prescribed testing fee (Rs. 200 for single phase, Rs. 500 for three phase)
+    The fee is non-refundable if the meter is found accurate.
+
+Section 9.3 — Testing Procedure
+    (a) The meter shall be tested within 30 days of application
+    (b) Testing shall be done by the Distribution Licensee's authorized personnel
+    (c) The consumer or their representative may be present during testing
+    (d) A test report shall be issued within 7 days of testing
+
+Section 9.4 — Outcome: Meter Accurate
+    If the meter is found accurate (error within ±2% of true value):
+    (a) The consumer bears the testing fee
+    (b) No revision to previous bills
+    (c) The meter continues in service
+
+Section 9.5 — Outcome: Meter Defective
+    If the meter is found defective (error exceeding ±2%):
+    (a) The meter shall be replaced at no cost to the consumer
+    (b) Testing fee shall be refunded
+    (c) Bills shall be revised for a period not exceeding 6 billing cycles
+    (d) Revision based on average of 12 months' consumption prior to the defect
+
+Section 9.6 — Meter Tampering
+    If a meter is found to be tampered:
+    (a) Assessment shall be made based on 200% of average consumption
+    (b) Penalty equal to 2 times the assessed amount shall be levied
+    (c) The Distribution Licensee may file a criminal complaint under Section 135 of the Act
+
+================================================================================
+CHAPTER 4: BILLING
+================================================================================
+
+Regulation 10: Billing Cycle and Due Date
+10.1 Bills shall be issued monthly or bi-monthly as determined by the Distribution Licensee.
+10.2 Payment shall be due within 15 days from the date of the bill.
+10.3 A late payment surcharge of 1.5% per month (simple interest) shall be levied on
+     amounts overdue beyond the due date.
+
+Regulation 11: Estimated Billing
+11.1 Where actual meter reading is not possible, an estimated bill shall be issued based on:
+     (a) The consumer's average monthly consumption in the previous 12 months; or
+     (b) The consumption of a comparable consumer if previous data is unavailable.
+11.2 Estimated bills shall be clearly marked "Estimated Bill."
+11.3 A final adjustment bill shall be issued after the next actual reading.
+
+Regulation 12: Advance Payment Discount
+12.1 A discount of 1% shall be allowed for advance payment received 5 days prior to due date.
+
+================================================================================
+CHAPTER 5: DISCONNECTION AND RECONNECTION
+================================================================================
+
+Regulation 13: Disconnection of Supply
+13.1 The Distribution Licensee may disconnect supply after giving due notice for:
+     (a) Non-payment of dues beyond the due date (notice of 15 days)
+     (b) Theft or unauthorized use of electricity
+     (c) Dangerous or defective installation
+     (d) Violation of supply conditions
+
+Clause 13.2 — Notice Requirements
+Before disconnecting for non-payment:
+     (a) Written notice of at least 15 days shall be given
+     (b) Notice shall specify the amount due and date of disconnection
+     (c) Notice shall be served personally or by registered post
+
+Clause 13.3 — Reconnection
+After disconnection, supply shall be restored within 24 hours of:
+     (a) Payment of all outstanding dues; AND
+     (b) Payment of reconnection charges (Rs. 50 for LT, Rs. 200 for HT)
+
+================================================================================
+CHAPTER 6: CONSUMER RIGHTS AND OBLIGATIONS
+================================================================================
+
+Regulation 14: Consumer Obligations
+14.1 The consumer shall:
+     (a) Use electricity only for the purpose for which the supply is sanctioned
+     (b) Notify the Distribution Licensee within 30 days of any change in the nature or
+         purpose of use of the premises
+     (c) Not tamper with or alter the meter or seals
+     (d) Allow Distribution Licensee personnel access for meter reading and inspection
+     (e) Not connect load exceeding the sanctioned connected load
+
+14.2 Change in Use of Premises
+A consumer who changes the use of their premises:
+     (a) From domestic to commercial: must apply for re-categorization within 30 days
+     (b) From commercial to domestic: may apply for re-categorization with documentary evidence
+     (c) Retrospective billing from date of change (or 12 months, whichever is less) applies
+         if change is detected without prior notification
+
+14.3 Home-Based Occupation
+A consumer who conducts a home-based occupation shall:
+     (a) Notify the Distribution Licensee of the nature of occupation
+     (b) Maintain conditions prescribed under Schedule 8 of the KERC Tariff Order
+     (c) The Distribution Licensee will assess whether LT-1 or LT-2 categorization applies
+
+Regulation 15: Consumer Rights
+15.1 Every consumer has the right to:
+     (a) Receive electricity supply of prescribed quality and reliability
+     (b) Be billed correctly under the applicable tariff category
+     (c) Have their meter tested
+     (d) Dispute any bill and receive a written response within 30 days
+     (e) Approach the Consumer Grievance Redressal Forum (CGRF)
+     (f) Receive compensation for prolonged supply interruptions (as per KERC standards)
+
+Regulation 16: Grievance Redressal
+16.1 Consumer Grievance Redressal Forum (CGRF)
+     Each Distribution Licensee shall establish CGRF at Division/Circle level.
+     Any aggrieved consumer may file a complaint with the CGRF.
+     
+Section 16.2 — CGRF Jurisdiction
+CGRF shall hear complaints regarding:
+     (a) Incorrect billing (including tariff category disputes)
+     (b) Meter disputes
+     (c) Connection-related issues
+     (d) Supply quality complaints
+     (e) Disconnection disputes
+
+Section 16.3 — CGRF Process
+     (a) Consumer files written complaint with CGRF
+     (b) CGRF acknowledges within 3 days
+     (c) Distribution Licensee submits reply within 15 days
+     (d) CGRF passes order within 30 days of receiving reply
+     (e) Orders of CGRF are binding on Distribution Licensee
+
+================================================================================
+CHAPTER 7: INSPECTION AND ENFORCEMENT
+================================================================================
+
+Regulation 17: Right of Inspection
+17.1 The Distribution Licensee's authorized officers may inspect any consumer's premises:
+     (a) To verify the nature and purpose of use
+     (b) To check connected load and metering equipment
+     (c) To investigate complaints or meter disputes
+     (d) To detect theft or unauthorized use
+     (e) At any reasonable time after giving 24 hours' notice (except in emergencies)
+
+Regulation 18: Assessment for Unauthorized Use
+18.1 If a consumer is found using electricity for an unauthorized purpose:
+     (a) Assessment for the unauthorized period (up to 2 years preceding detection)
+     (b) Additional surcharge of 15% on assessed amount
+     (c) Option to regularize by applying for the correct category
+
+================================================================================
+CHAPTER 8: SPECIAL PROVISIONS FOR SPECIFIC CONSUMER CATEGORIES
+================================================================================
+
+Section 19: Agricultural Connections
+19.1 Agricultural connections are subject to:
+     (a) Verification of agricultural land ownership (or lease)
+     (b) Annual declaration by the consumer regarding agricultural use
+     (c) Physical inspection if commercial use is suspected
+
+Section 19.2 — Mixed Use of Agricultural Connection
+If an agricultural connection is found to be used for non-agricultural purposes:
+     (a) The non-agricultural use shall be billed under the applicable commercial category
+     (b) A separate connection may be required for non-agricultural use
+     (c) Retrospective billing for the non-agricultural use applies
+
+Section 20: Industrial Connections
+Section 20.1 — Load Factor Requirements
+Industrial consumers must maintain a load factor of at least 35% per month, failing which
+a minimum charge equivalent to the contracted load shall apply.
+
+Section 20.2 — Power Factor Clause
+Industrial consumers (HT and LT-3) must maintain a power factor of 0.90 or above.
+Penalty/incentive provisions apply as per the KERC Tariff Order.
+
+================================================================================
+APPENDIX A: TARIFF CATEGORY DETERMINATION MATRIX
+================================================================================
+
+Quick Reference Guide for Tariff Category Classification:
+
+| Premises Use          | Connected Load | Applicable Category |
+|-----------------------|---------------|---------------------|
+| Purely Domestic       | ≤ 10 kW       | LT-1 Domestic       |
+| Purely Domestic       | > 10 kW       | LT-1A HEW Domestic  |
+| Purely Commercial     | Any           | LT-2 Non-Domestic   |
+| Mixed (Dom > 50%)     | Any           | LT-1 + assessment   |
+| Mixed (Com > 50%)     | Any           | LT-2 (entire premises)|
+| Home-Based Occupation | Any           | LT-1 (if all conditions met) |
+| Industrial            | ≤ 75 kW       | LT-3 Industrial     |
+| Agricultural          | Any           | LT-4 Agricultural   |
+
+================================================================================
+APPENDIX B: DOCUMENTS REQUIRED FOR TARIFF RE-CATEGORIZATION
+================================================================================
+
+For re-categorization from Domestic to Commercial (LT-1 to LT-2):
+1. Application in prescribed form
+2. Nature of business (trade license / registration)
+3. Layout plan showing area of commercial use
+4. Area measurement certificate
+5. Any applicable shop/establishment registration
+
+For home-based occupation (retention in LT-1):
+1. Declaration by consumer regarding nature and extent of occupation
+2. Self-declaration of number of employees (max 2 from outside)
+3. Layout plan (approximate) showing extent of domestic vs. occupation area
+4. Undertaking to notify within 30 days if conditions change
+
+================================================================================
+APPENDIX C: STANDARD FORMS
+================================================================================
+
+Form SC-1: Application for New Connection
+Form SC-2: Application for Additional Load
+Form SC-3: Application for Meter Testing
+Form SC-4: Application for Tariff Re-Categorization  
+Form SC-5: Consumer Complaint/Dispute Form
+Form SC-6: Home-Based Occupation Declaration
+
+================================================================================
+END OF KARNATAKA ELECTRICITY SUPPLY CODE 2004 (AMENDED 2022)
+================================================================================
+
+Issued by:
+Principal Secretary, Energy Department
+Government of Karnataka
+Vidhana Soudha, Bengaluru - 560 001
+
+Amended and notified on: 15 March 2022
